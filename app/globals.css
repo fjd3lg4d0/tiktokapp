@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,17 +7,37 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+=======
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+>>>>>>> 8ebe165 (Saving local changes before rebase)
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+<<<<<<< HEAD
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+=======
+    --background: #0a0a0a;
+    --foreground: #ededed;
+>>>>>>> 8ebe165 (Saving local changes before rebase)
   }
 }
 
 body {
+<<<<<<< HEAD
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-start-rgb));
 }
@@ -49,3 +70,9 @@ body {
   margin-top: 4px;
 }
 
+=======
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+>>>>>>> 8ebe165 (Saving local changes before rebase)
